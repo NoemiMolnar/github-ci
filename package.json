@@ -1,0 +1,22 @@
+{
+  "name": "github-ci",
+  "version": "1.0.0",
+  "description": "A Swydo custom integration",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "custom-integrations start --tunnel",
+    "validate": "custom-integrations validate",
+    "test": "npm run validate",
+    "mocha": "mocha \"src/**/*.spec.js\" --exit"
+  },
+  "author": "You",
+  "license": "ISC",
+  "dependencies": {
+    "@swydo/custom-integrations": "^0.16.5",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.1",
+    "nock": "^11.3.5",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7"
+  }
+}
