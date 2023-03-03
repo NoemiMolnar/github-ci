@@ -14,7 +14,7 @@
   "dependencies": {
     "@swydo/custom-integrations": "^0.16.5",
     "chai": "^4.2.0",
-    "mocha": "^6.2.1",
+    "mocha": "^6.2.3",
     "nock": "^11.3.5",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.7"
